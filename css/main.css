@@ -1,0 +1,33 @@
+* {
+	word-break: break-all;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+	background: #EEEEEE;
+}
+::-webkit-scrollbar-thumb {
+	background: #999999;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #666666;
+}
+.boxNav {
+    margin: 10px 20px 0 20px;
+}
+.boxNav li {
+    margin: 0 10px;
+}
+.boxImage, .boxContent {
+    text-align: center;
+}
+.boxImage img {
+    max-height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
